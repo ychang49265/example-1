@@ -1,3 +1,5 @@
-function(){
-    console.log('hi')
+function hello(name){
+    console.log(`hi ${name}`);
 }
+
+console.log(hello('YooJin'));
